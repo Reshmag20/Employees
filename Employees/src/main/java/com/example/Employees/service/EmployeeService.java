@@ -23,6 +23,6 @@ public class EmployeeService {
     }
 
     public String welcome() {
-        return "welcome";
+        return "hello welcome to employees portal";
     }
 }
