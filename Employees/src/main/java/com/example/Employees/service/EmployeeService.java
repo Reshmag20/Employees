@@ -21,4 +21,8 @@ public class EmployeeService {
     public List<Employee> getEmployees() {
         return employeeRepo.findAll();
     }
+
+    public String welcome() {
+        return "welcome";
+    }
 }

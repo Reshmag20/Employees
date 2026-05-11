@@ -24,4 +24,9 @@ public class EmployeeController {
     public List<Employee> getEmployees(){
         return employeeService.getEmployees();
     }
+
+    @GetMapping("/welcome")
+    public String welcome(){
+        return employeeService.welcome();
+    }
 }
